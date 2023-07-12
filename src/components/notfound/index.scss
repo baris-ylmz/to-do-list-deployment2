@@ -1,0 +1,11 @@
+.container__notFound {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 50%;
+    left: 40%;
+
+    h1 {
+        color: black;
+    }
+}

@@ -1,0 +1,210 @@
+.container-content-active {
+    .row {
+        background-color: #dfe2e7 !important;
+    }
+}
+
+.container-content {
+    // display: flex;
+    // position: absolute !important;
+    // gap: 20px;
+
+    background-color: #242424;
+}
+
+.container-content__opacity {
+    opacity: 0.2;
+    background-color: #242424;
+}
+
+@media (max-width:1199px) {
+
+    .container-content {
+        margin-left: 10%;
+    }
+
+
+}
+
+@media (max-width:1050px) {
+
+    .container-content {
+        margin-left: 7%;
+    }
+
+
+}
+
+@media (max-width:993px) {
+
+    .container-content {
+        margin-right: 2%;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .container-content {
+        margin-right: 20%;
+        margin-left: 0;
+    }
+
+
+}
+
+@media (max-width:991px) {
+
+    .container-content {
+        margin-right: 0;
+        margin-left: 6%;
+    }
+
+
+}
+
+@media (max-width:921px) {
+
+    .container-content {
+        margin-left: 5%;
+    }
+
+
+}
+
+
+@media (max-width:821px) {
+
+    .container-content {
+        margin-left: 2%;
+    }
+
+
+}
+
+@media (max-width:769px) {
+
+    .container-content {
+        margin-left: 19%;
+    }
+
+
+}
+
+@media (max-width:721px) {
+
+    .container-content {
+        margin-left: 17%;
+    }
+
+
+}
+
+@media (max-width:669px) {
+
+    .container-content {
+        margin-left: 15%;
+    }
+
+
+}
+
+@media (max-width:636px) {
+
+    .container-content {
+        margin-left: 13%;
+    }
+
+
+}
+
+@media (max-width:600px) {
+
+    .container-content {
+        margin-left: 11%;
+    }
+
+
+}
+
+@media (max-width:569px) {
+
+    .container-content {
+        margin-left: 9%;
+    }
+
+
+}
+
+@media (max-width:531px) {
+
+    .container-content {
+        margin-left: 7%;
+    }
+
+
+}
+
+@media (max-width:513px) {
+
+    .container-content {
+        margin-left: 6%;
+    }
+
+
+}
+
+@media (max-width:485px) {
+
+    .container-content {
+        margin-left: 4%;
+    }
+
+
+}
+
+@media (max-width:479px) {
+
+    .container-content {
+        margin-left: 5%;
+    }
+
+
+}
+
+@media (max-width:469px) {
+
+    .container-content {
+        margin-left: 3%;
+    }
+
+
+}
+
+@media (max-width:459px) {
+
+    .container-content {
+        margin-left: 1%;
+    }
+
+
+}
+
+@media (max-width:449px) {
+
+    .container-content {
+        margin-left: 0%;
+    }
+
+
+}
+
+@media (max-width:415px) {
+
+    .container-content {
+        margin-left: 6%;
+    }
+
+
+}

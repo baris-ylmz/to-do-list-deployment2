@@ -1,0 +1,234 @@
+body {
+  background-color: yellow;
+}
+
+.app-active {
+  background-color: #dfe2e7 !important;
+
+  .toast-container{
+    .toast-container__box{
+      background-color: #dfe2e7 !important;
+      .toast-container__header{
+        background-color: #6994df !important;
+        color: #dfe2e7  !important;
+      }
+
+      .toast-container__box-buttons{
+        background-color: #dfe2e7 !important;
+
+        button{
+          background-color: #6994df !important;
+          color: #dfe2e7 !important;
+        }
+
+
+        .btn-cancel:hover{
+          background-color: green !important;
+          opacity: 0.5;
+          color: #dfe2e7 !important;
+        }
+
+        .btn-continue:hover{
+          background-color: rgb(245, 56, 56) !important;
+          opacity: 0.5;
+          color: #dfe2e7 !important;
+        }
+      }
+    }
+  }
+
+  .header-container {
+    background-color: #dfe2e7 !important;
+  }
+
+  #header {
+    color: #1c1c24 !important;
+  }
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #242424;
+  transition: 0.3s;
+
+  .components-span-opacity {
+    opacity: 0.2 !important;
+  }
+
+  .toast-container {
+    .toast-container__box {
+      border-radius: 20px;
+      width: 400px;
+      height: 150px;
+      background-color: #242424;
+
+      .toast-container__box-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background-color: #242424;
+        height: 45px;
+
+        button {
+          width: 100px;
+          height: 40px;
+          border-radius: 20px;
+          background-color: #FFC107;
+          color: #242424;
+          font-size: 1.2rem;
+          border-style: none;
+          font-weight: 400;
+          transition: 0.3s;
+        }
+
+        .btn-cancel:hover {
+          margin-top: 5px;
+          background-color: lightgreen;
+          opacity: 0.7;
+          color: #121212;
+        }
+
+        .btn-continue:hover {
+          margin-top: 5px;
+          background-color: rgb(245, 56, 56);
+          opacity: 0.7;
+          color: #121212;
+        }
+      }
+
+      .toast-container__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        background-color: #121212;
+        color: #FFC107;
+        height: 50px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+    }
+  }
+
+  .header-container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  #header {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 4px 8px 8px;
+    transition: 0.3s;
+  }
+
+  .popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transition: 0.3s;
+
+  }
+
+  .components__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+
+    #custom-switch {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+    .logout__switch {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+    .logout__switch:hover {
+      color: #2a52f0;
+    }
+
+    .logout__switch__active {
+      color: white !important;
+    }
+
+    .logout__switch__active:hover {
+      color: #FFC107 !important;
+    }
+
+  }
+
+}
+
+@media (max-width:705px) {
+  .App {
+    .components__icon {
+      right: 40%;
+      top: 100px;
+    }
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .toast-container{
+    position: fixed;
+    top: 100px !important;
+  }
+}
+
+@media (max-width:505px) {
+  .App {
+    .components__icon {
+      right: 39%;
+      top: 100px;
+    }
+  }
+
+}
+
+@media (max-width:414px) {
+  .App {
+    .components__icon {
+      right: 37%;
+      top: 100px;
+    }
+  }
+
+}
+
+@media (max-width:390px) {
+  .App {
+    .components__icon {
+      right: 35%;
+      top: 100px;
+    }
+  }
+
+}
+
+@media (max-width:305px) {
+  .App {
+    .components__icon {
+      right: 33%;
+      top: 100px;
+    }
+  }
+
+}
