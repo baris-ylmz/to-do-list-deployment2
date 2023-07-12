@@ -28,7 +28,6 @@ const Login = () => {
       await signInWithEmailAndPassword(auth, email, password);
       sessionStorage.setItem("auth", JSON.stringify(auth));
       dispatch(setIsLoggedIn(true));
-
       navigate("/home");
     } catch (error) {
       setError("Invalid email or password.");

@@ -121,7 +121,7 @@ function MiddleContent({ selectedTasks, setSelectedTasks }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const q = query(collection(db, 'todos'), where('userId', '==', user.uid));
+        const q = query(collection(db, 'todos'), where('userId', '==', user?.uid));
         const snapshot = await getDocs(q);
         const todoList = snapshot.docs.map((doc) => ({
           id: doc.id,
@@ -133,10 +133,10 @@ function MiddleContent({ selectedTasks, setSelectedTasks }) {
       }
     };
 
-    if (user.uid) {
+    if (user?.uid) {
       fetchData();
     }
-  }, [user.uid]);
+  }, [user?.uid]);
 
   const handleDragStart = (event, task) => {
     event.dataTransfer.setData('taskId', task.id);
