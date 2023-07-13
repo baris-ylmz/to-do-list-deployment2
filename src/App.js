@@ -42,14 +42,14 @@ function App() {
               </PrivateRoute>
             }
           />
-          {/*<Route*/}
-          {/*    path="/register"*/}
-          {/*    element={*/}
-          {/*      <PublicRoute>*/}
-          {/*        <Register />*/}
-          {/*      </PublicRoute>*/}
-          {/*    }*/}
-          {/*/>*/}
+          <Route
+              path="/register"
+              element={
+                <PublicRoute>
+                  <Register />
+                </PublicRoute>
+              }
+          />
           <Route
             path="/login"
             element={
